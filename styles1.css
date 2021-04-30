@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://picsum.photos/id/10/2000);
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  padding: 20%;
+  height: 100vh;
+}
+
+.testimonial-input {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5%;
+}
+
+.owl-carousel {
+  overflow: hidden;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-basis: 40%;
+}
+
+.picture {
+  border-radius: 70%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+.owl-carousel .owl-carousel img {
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+}
+
+.name {
+  padding: 3%;
+}
+
+.job {
+  padding: 3%;
+}
